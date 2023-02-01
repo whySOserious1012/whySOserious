@@ -1,0 +1,28 @@
+$color-1:red;
+$color-2:yellow;
+$color-3:rgb(162, 211, 243);
+$flex:flex;
+$justify:space-between;
+
+body{
+  background-color: $color-3;
+}
+.maindiv{
+  display: $flex;
+  justify-content: $justify;
+  background-color: pink;
+  align-items: center;
+  .logo img{
+    height: 20px;
+    width: 20px;
+  }
+  .nav-item{
+    background-color: green;
+    nav{
+      border:5px solid yellow;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+}
